@@ -2,32 +2,13 @@
 import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-       <style>
-      {`
-        html, body {
-          height: 100%;
-          margin: 0;
-        }
-        .min-vh-100 {
-          min-height: 100vh;
-        }
-        .d-flex {
-          display: flex;
-        }
-        .flex-column {
-          flex-direction: column;
-        }
-        .mt-auto {
-          margin-top: auto;
-        }
-      `}
-    </style>
-    <div className="d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column min-vh-100 app-background">
       <Header />
       <main className="mx-3">
         <Outlet />

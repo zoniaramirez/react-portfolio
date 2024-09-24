@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 
 const Header = () => (
   <header>
-    <h1>Zonia Ramirez</h1>
+    <h1 className="header-title">Zonia Ramirez</h1>
     <NavTabs />
   </header>
 );

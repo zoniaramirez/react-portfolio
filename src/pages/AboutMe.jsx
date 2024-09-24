@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <section className="container mt-5">
-      <h2 className="mb-4">About Me</h2>
+      <h2 className="mb-4 custom-margin">About Me</h2>
       <div className="row">
         <div className="col-md-4">
           <img src="/assets/avatar.png" alt="Developer" />

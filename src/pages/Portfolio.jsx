@@ -15,7 +15,7 @@ export default function Portfolio() {
           <Project title="Employee Tracker" image="/assets/Employeetracker.png" deployedLink="https://drive.google.com/file/d/1Z-LLrQIwCABRCT7xE_iRyK9PLM7gFsfq/view?usp=drive_link" repoLink="https://github.com/zoniaramirez/employee-tracker" />
         </div>
         <div className="col-md-4 mb-4">
-          <Project title="noSQL" image="/assets/nosql.png" deployedLink="https://drive.google.com/file/d/1zvkd9_dRS_QF4gKVVaHzGDrs2ScbfyUI/view?usp=sharing" repoLink="https://github.com/zoniaramirez/social-network-API" />
+          <Project title="NoSQL" image="/assets/nosql.png" deployedLink="https://drive.google.com/file/d/1zvkd9_dRS_QF4gKVVaHzGDrs2ScbfyUI/view?usp=sharing" repoLink="https://github.com/zoniaramirez/social-network-API" />
         </div>
         <div className="col-md-4 mb-4">
           <Project title="Note Taker" image="/assets/Note-Taker.png" deployedLink="https://note-taker-lk75.onrender.com" repoLink="https://github.com/zoniaramirez/note-taker" />

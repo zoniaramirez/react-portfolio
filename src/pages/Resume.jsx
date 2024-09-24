@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <section className="container mt-5">
       <h2 className="mb-4">Resume</h2>
-      <a href="/path/to/resume.pdf" className="btn btn-primary mb-4" download>Download Resume</a>
+      <a href="/assets/Resume.pdf" className="btn btn-primary mb-4" download>Download Resume</a>
       <div className="mb-4">
         <h2>Front-end Proficiencies</h2>
         <ul>
