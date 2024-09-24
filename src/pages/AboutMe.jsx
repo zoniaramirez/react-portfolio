@@ -4,7 +4,7 @@ export default function AboutMe() {
       <h2 className="mb-4">About Me</h2>
       <div className="row">
         <div className="col-md-4">
-          <img src="/src/assets/avatar.png" alt="Developer" />
+          <img src="/assets/avatar.png" alt="Developer" />
         </div>
         <div className="col-md-8">
           {/*eslint-disable-next-line react/no-unescaped-entities */}
